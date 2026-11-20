@@ -1,0 +1,61 @@
+description,title,category,expected,actual
+Login button overlaps the password field on mobile,Login button overlaps password field,UI,Login form elements do not overlap,Button covers part of the password field
+Profile avatar is stretched on the settings page,Profile avatar is distorted,UI,Avatar keeps its aspect ratio,Avatar appears stretched
+Checkout heading is cut off on narrow screens,Checkout heading is clipped,UI,Checkout heading is fully visible,Part of the heading is cut off
+Tooltip appears behind the navigation menu,Tooltip is hidden behind menu,UI,Tooltip appears above other elements,Navigation menu covers tooltip
+Dark mode text is unreadable on the payment screen,Payment text has low contrast,UI,Text remains readable in dark mode,Text blends into the background
+Search icon is missing from the header,Search icon is not displayed,UI,Search icon is visible in header,Header shows no search icon
+Modal dialog extends beyond the viewport,Modal exceeds screen boundaries,UI,Modal fits inside the viewport,Bottom of modal is outside screen
+Product cards have inconsistent spacing,Product card spacing is inconsistent,UI,Product cards use consistent spacing,Gaps between cards are uneven
+Error message is displayed outside the form,Form error message is misplaced,UI,Validation message appears near its field,Error message appears outside form
+Footer links overlap on tablet screens,Footer links overlap on tablet,UI,Footer links remain separated,Footer links overlap
+Notification badge is partially hidden,Notification badge is clipped,UI,Notification badge is fully visible,Part of notification badge is hidden
+Dropdown arrow is misaligned with its label,Dropdown arrow is misaligned,UI,Arrow aligns with dropdown label,Arrow is shifted below the label
+Loading spinner is not centered in the dialog,Loading spinner is off-center,UI,Spinner is centered in dialog,Spinner appears near dialog edge
+Sidebar text wraps over adjacent icons,Sidebar labels overlap icons,UI,Labels do not overlap icons,Wrapped labels cover icons
+Date picker calendar is hidden under the footer,Date picker is obscured,UI,Calendar appears above footer,Footer hides calendar rows
+Breadcrumbs are truncated without an ellipsis,Breadcrumb truncation is unclear,UI,Truncated breadcrumbs show ellipsis,Breadcrumb text ends abruptly
+Primary button uses the wrong background color,Primary button color is incorrect,UI,Button uses design-system color,Button has a different color
+Checkbox label is not aligned with the checkbox,Checkbox label is misaligned,UI,Label aligns with checkbox,Label appears below checkbox
+Toast message is clipped at the right edge,Toast message is clipped,UI,Toast text is fully visible,Right side of toast is cut off
+Table header overlaps the first data row,Table header overlaps row,UI,Table header does not overlap data,Header covers first row
+Login fails with valid credentials,Login fails with valid credentials,FUNCTIONAL,Valid credentials allow login,Login request fails
+Reset password email is never sent,Password reset email is missing,FUNCTIONAL,Reset email is sent,No reset email arrives
+Cart total does not update after removing an item,Cart total is not recalculated,FUNCTIONAL,Total updates after item removal,Old total remains visible
+Search returns no results for an existing product,Search misses existing product,FUNCTIONAL,Existing products appear in results,Search returns an empty list
+User can submit registration form with an invalid email,Registration accepts invalid email,FUNCTIONAL,Invalid email is rejected,Form accepts invalid email
+Logout button does not end the user session,Logout does not clear session,FUNCTIONAL,Logout ends the session,User remains authenticated
+Order confirmation is not shown after payment,Order confirmation is missing,FUNCTIONAL,Successful payment shows confirmation,Confirmation page does not appear
+Profile changes disappear after refreshing the page,Profile edits are not saved,FUNCTIONAL,Profile changes persist,Changes disappear after refresh
+Download invoice button opens a blank page,Invoice download fails,FUNCTIONAL,Invoice file is downloaded,Blank page opens instead
+Filter by category includes unrelated products,Category filter returns wrong items,FUNCTIONAL,Filter returns only matching products,Unrelated products appear
+User can add an out-of-stock item to the cart,Unavailable item can be added,FUNCTIONAL,Out-of-stock items cannot be added,Item is added despite no stock
+Language selection resets after navigation,Selected language is not retained,FUNCTIONAL,Language preference persists,Language returns to default
+Save address button does not persist the address,Shipping address is not saved,FUNCTIONAL,Saved address persists,Address is lost after navigation
+Pagination skips the last search result,Pagination omits a result,FUNCTIONAL,All search results are accessible,Last result never appears
+Two-factor code is accepted after expiration,Expired verification code is accepted,FUNCTIONAL,Expired codes are rejected,Expired code allows access
+Cancel subscription button keeps subscription active,Subscription cancellation fails,FUNCTIONAL,Cancellation deactivates subscription,Subscription remains active
+Duplicate payment is created after double-clicking Pay,Payment is submitted twice,FUNCTIONAL,Only one payment is processed,Two charges are created
+Comment edit action deletes the comment,Editing comment removes it,FUNCTIONAL,Editing updates existing comment,Comment disappears
+Favorite button does not save selected products,Favorites are not saved,FUNCTIONAL,Selected products remain in favorites,Favorites list remains empty
+Invite link leads to an invalid team page,Team invitation link is broken,FUNCTIONAL,Invite link opens team onboarding,Invalid team page appears
+Dashboard takes 12 seconds to load,Dashboard loads slowly,PERFORMANCE,Dashboard loads within acceptable time,Dashboard takes 12 seconds
+Product search freezes for several seconds,Product search freezes,PERFORMANCE,Search responds without freezing,Search freezes during execution
+Scrolling through the catalog is very laggy,Catalog scrolling is laggy,PERFORMANCE,Catalog scrolls smoothly,Scrolling stutters
+Report export takes more than a minute,Report export is slow,PERFORMANCE,Report export completes promptly,Export takes over one minute
+Opening a large chat history makes the app unresponsive,Chat history causes UI freeze,PERFORMANCE,Chat history opens responsively,App stops responding
+Image gallery takes too long to display thumbnails,Gallery thumbnails load slowly,PERFORMANCE,Thumbnails appear promptly,Thumbnails are delayed
+Typing in the search field has a noticeable delay,Search input has high latency,PERFORMANCE,Text input responds immediately,Characters appear with delay
+Checkout page slows down when cart has many items,Checkout slows for large carts,PERFORMANCE,Checkout remains responsive,Large carts cause delays
+Memory usage increases continuously during navigation,Navigation causes memory growth,PERFORMANCE,Memory usage remains stable,Memory consumption keeps increasing
+API response time exceeds ten seconds at peak load,API latency spikes at peak load,PERFORMANCE,API responds within target latency,Response exceeds ten seconds
+Switching tabs causes repeated UI freezes,Tab switching freezes UI,PERFORMANCE,Tab changes are responsive,UI freezes on tab changes
+Autocomplete suggestions appear after a long pause,Autocomplete is delayed,PERFORMANCE,Suggestions appear quickly,Suggestions arrive after a pause
+Loading user profile blocks the interface,Profile loading blocks UI,PERFORMANCE,Interface stays responsive during loading,Interface is blocked
+Uploading a small attachment takes unusually long,Small file upload is slow,PERFORMANCE,Small attachments upload promptly,Upload takes excessive time
+Opening settings triggers a long loading spinner,Settings page loads slowly,PERFORMANCE,Settings opens promptly,Long spinner appears
+Table sorting stalls on large datasets,Large table sorting stalls,PERFORMANCE,Sorting finishes responsively,Sorting stalls
+Switching between photos causes frame drops,Photo navigation drops frames,PERFORMANCE,Photo navigation stays smooth,Animation stutters
+App startup is much slower after an update,App startup regressed,PERFORMANCE,App starts within expected time,Startup takes longer
+Map zooming becomes sluggish with many markers,Map zoom is sluggish,PERFORMANCE,Map zoom remains responsive,Zooming lags
+Notification list takes several seconds to open,Notifications open slowly,PERFORMANCE,Notification list opens promptly,Opening list is delayed

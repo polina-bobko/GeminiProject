@@ -1,0 +1,13 @@
+description,title,category,expected,actual
+Two-factor code is accepted after expiration,Expired verification code is accepted,FUNCTIONAL,Expired codes are rejected,Expired code allows access
+Checkbox label is not aligned with the checkbox,Checkbox label is misaligned,UI,Label aligns with checkbox,Label appears below checkbox
+Product search freezes for several seconds,Product search freezes,PERFORMANCE,Search responds without freezing,Search freezes during execution
+Autocomplete suggestions appear after a long pause,Autocomplete is delayed,PERFORMANCE,Suggestions appear quickly,Suggestions arrive after a pause
+Tooltip appears behind the navigation menu,Tooltip is hidden behind menu,UI,Tooltip appears above other elements,Navigation menu covers tooltip
+Order confirmation is not shown after payment,Order confirmation is missing,FUNCTIONAL,Successful payment shows confirmation,Confirmation page does not appear
+Error message is displayed outside the form,Form error message is misplaced,UI,Validation message appears near its field,Error message appears outside form
+User can add an out-of-stock item to the cart,Unavailable item can be added,FUNCTIONAL,Out-of-stock items cannot be added,Item is added despite no stock
+Dashboard takes 12 seconds to load,Dashboard loads slowly,PERFORMANCE,Dashboard loads within acceptable time,Dashboard takes 12 seconds
+App startup is much slower after an update,App startup regressed,PERFORMANCE,App starts within expected time,Startup takes longer
+Modal dialog extends beyond the viewport,Modal exceeds screen boundaries,UI,Modal fits inside the viewport,Bottom of modal is outside screen
+Profile changes disappear after refreshing the page,Profile edits are not saved,FUNCTIONAL,Profile changes persist,Changes disappear after refresh

@@ -1,0 +1,11 @@
+{
+  "test_count": 12,
+  "validation_loss": 0.7677973508834839,
+  "category_accuracy_before": 0.3333333333333333,
+  "category_accuracy_after": 0.8333333333333334,
+  "complete_fields_before": 1.0,
+  "complete_fields_after": 1.0,
+  "behavior_distinct_before": 1.0,
+  "behavior_distinct_after": 1.0,
+  "note": "Expected/Actual are now generated together. Presence and distinctness do not prove semantic correctness: review test_predictions.csv manually."
+}

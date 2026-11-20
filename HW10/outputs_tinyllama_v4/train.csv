@@ -1,0 +1,37 @@
+description,title,category,expected,actual
+Switching between photos causes frame drops,Photo navigation drops frames,PERFORMANCE,Photo navigation stays smooth,Animation stutters
+Notification list takes several seconds to open,Notifications open slowly,PERFORMANCE,Notification list opens promptly,Opening list is delayed
+Switching tabs causes repeated UI freezes,Tab switching freezes UI,PERFORMANCE,Tab changes are responsive,UI freezes on tab changes
+Login button overlaps the password field on mobile,Login button overlaps password field,UI,Login form elements do not overlap,Button covers part of the password field
+Comment edit action deletes the comment,Editing comment removes it,FUNCTIONAL,Editing updates existing comment,Comment disappears
+Toast message is clipped at the right edge,Toast message is clipped,UI,Toast text is fully visible,Right side of toast is cut off
+Notification badge is partially hidden,Notification badge is clipped,UI,Notification badge is fully visible,Part of notification badge is hidden
+Language selection resets after navigation,Selected language is not retained,FUNCTIONAL,Language preference persists,Language returns to default
+Invite link leads to an invalid team page,Team invitation link is broken,FUNCTIONAL,Invite link opens team onboarding,Invalid team page appears
+Duplicate payment is created after double-clicking Pay,Payment is submitted twice,FUNCTIONAL,Only one payment is processed,Two charges are created
+Report export takes more than a minute,Report export is slow,PERFORMANCE,Report export completes promptly,Export takes over one minute
+Opening settings triggers a long loading spinner,Settings page loads slowly,PERFORMANCE,Settings opens promptly,Long spinner appears
+Loading user profile blocks the interface,Profile loading blocks UI,PERFORMANCE,Interface stays responsive during loading,Interface is blocked
+Breadcrumbs are truncated without an ellipsis,Breadcrumb truncation is unclear,UI,Truncated breadcrumbs show ellipsis,Breadcrumb text ends abruptly
+Search icon is missing from the header,Search icon is not displayed,UI,Search icon is visible in header,Header shows no search icon
+Download invoice button opens a blank page,Invoice download fails,FUNCTIONAL,Invoice file is downloaded,Blank page opens instead
+Dark mode text is unreadable on the payment screen,Payment text has low contrast,UI,Text remains readable in dark mode,Text blends into the background
+Login fails with valid credentials,Login fails with valid credentials,FUNCTIONAL,Valid credentials allow login,Login request fails
+Uploading a small attachment takes unusually long,Small file upload is slow,PERFORMANCE,Small attachments upload promptly,Upload takes excessive time
+User can submit registration form with an invalid email,Registration accepts invalid email,FUNCTIONAL,Invalid email is rejected,Form accepts invalid email
+Filter by category includes unrelated products,Category filter returns wrong items,FUNCTIONAL,Filter returns only matching products,Unrelated products appear
+Search returns no results for an existing product,Search misses existing product,FUNCTIONAL,Existing products appear in results,Search returns an empty list
+Opening a large chat history makes the app unresponsive,Chat history causes UI freeze,PERFORMANCE,Chat history opens responsively,App stops responding
+Table sorting stalls on large datasets,Large table sorting stalls,PERFORMANCE,Sorting finishes responsively,Sorting stalls
+Cancel subscription button keeps subscription active,Subscription cancellation fails,FUNCTIONAL,Cancellation deactivates subscription,Subscription remains active
+Scrolling through the catalog is very laggy,Catalog scrolling is laggy,PERFORMANCE,Catalog scrolls smoothly,Scrolling stutters
+Profile avatar is stretched on the settings page,Profile avatar is distorted,UI,Avatar keeps its aspect ratio,Avatar appears stretched
+Loading spinner is not centered in the dialog,Loading spinner is off-center,UI,Spinner is centered in dialog,Spinner appears near dialog edge
+Checkout heading is cut off on narrow screens,Checkout heading is clipped,UI,Checkout heading is fully visible,Part of the heading is cut off
+Table header overlaps the first data row,Table header overlaps row,UI,Table header does not overlap data,Header covers first row
+Checkout page slows down when cart has many items,Checkout slows for large carts,PERFORMANCE,Checkout remains responsive,Large carts cause delays
+Footer links overlap on tablet screens,Footer links overlap on tablet,UI,Footer links remain separated,Footer links overlap
+Primary button uses the wrong background color,Primary button color is incorrect,UI,Button uses design-system color,Button has a different color
+Reset password email is never sent,Password reset email is missing,FUNCTIONAL,Reset email is sent,No reset email arrives
+Typing in the search field has a noticeable delay,Search input has high latency,PERFORMANCE,Text input responds immediately,Characters appear with delay
+Cart total does not update after removing an item,Cart total is not recalculated,FUNCTIONAL,Total updates after item removal,Old total remains visible

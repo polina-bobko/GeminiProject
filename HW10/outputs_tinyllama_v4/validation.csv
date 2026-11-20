@@ -1,0 +1,13 @@
+description,title,category,expected,actual
+Map zooming becomes sluggish with many markers,Map zoom is sluggish,PERFORMANCE,Map zoom remains responsive,Zooming lags
+Pagination skips the last search result,Pagination omits a result,FUNCTIONAL,All search results are accessible,Last result never appears
+Dropdown arrow is misaligned with its label,Dropdown arrow is misaligned,UI,Arrow aligns with dropdown label,Arrow is shifted below the label
+Save address button does not persist the address,Shipping address is not saved,FUNCTIONAL,Saved address persists,Address is lost after navigation
+Date picker calendar is hidden under the footer,Date picker is obscured,UI,Calendar appears above footer,Footer hides calendar rows
+Image gallery takes too long to display thumbnails,Gallery thumbnails load slowly,PERFORMANCE,Thumbnails appear promptly,Thumbnails are delayed
+API response time exceeds ten seconds at peak load,API latency spikes at peak load,PERFORMANCE,API responds within target latency,Response exceeds ten seconds
+Memory usage increases continuously during navigation,Navigation causes memory growth,PERFORMANCE,Memory usage remains stable,Memory consumption keeps increasing
+Favorite button does not save selected products,Favorites are not saved,FUNCTIONAL,Selected products remain in favorites,Favorites list remains empty
+Sidebar text wraps over adjacent icons,Sidebar labels overlap icons,UI,Labels do not overlap icons,Wrapped labels cover icons
+Logout button does not end the user session,Logout does not clear session,FUNCTIONAL,Logout ends the session,User remains authenticated
+Product cards have inconsistent spacing,Product card spacing is inconsistent,UI,Product cards use consistent spacing,Gaps between cards are uneven
